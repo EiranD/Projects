@@ -1,2 +1,0 @@
-# Projects
-Place for projects
