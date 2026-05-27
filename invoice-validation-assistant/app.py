@@ -268,8 +268,7 @@ def show_column_warning(uploaded_columns, missing_columns):
     if looks_like_service_request_file(uploaded_columns):
         st.warning(
             "This looks like the Service Request Insight Tool sample file. "
-            "For this app, upload an invoice file such as `sample_invoice.csv` "
-            "or `sample_invoice.xlsx`."
+            "For this app, upload a file with the required invoice columns."
         )
 
     st.write("Missing invoice columns:")
@@ -347,22 +346,6 @@ def convert_dataframe_to_csv(dataframe):
     csv_buffer = io.StringIO()
     dataframe.to_csv(csv_buffer, index=False)
     return csv_buffer.getvalue().encode("utf-8")
-
-
-def get_sample_invoice_csv():
-    """Return a small invoice sample that users can download from the app."""
-    sample_data = pd.DataFrame(
-        [
-            ["Consulting services", 10, 100, 1000, "20%"],
-            ["Design work", 5, 80, 400, "20%"],
-            ["Support package", 3, 75, 220, "20%"],
-            ["Training session", 2.5, 120, 300, "0%"],
-            ["Report writing", 4, 90, 360, "5%"],
-        ],
-        columns=EXPECTED_COLUMNS,
-    )
-
-    return convert_dataframe_to_csv(sample_data)
 
 
 def calculate_summary_values(checked_data):
@@ -469,14 +452,7 @@ def main():
     with st.container(border=True):
         st.write("Accepted file types: CSV, XLSX, or PDF.")
         st.write("PDF uploads work best when the invoice has a clear selectable table.")
-        st.write("Need a test file? Download the invoice sample below.")
-
-        st.download_button(
-            label="Download Sample Invoice CSV",
-            data=get_sample_invoice_csv(),
-            file_name="sample_invoice.csv",
-            mime="text/csv",
-        )
+        st.write("Upload an invoice file with the required columns listed in the sidebar.")
 
         uploaded_file = st.file_uploader(
             "Choose an invoice file",

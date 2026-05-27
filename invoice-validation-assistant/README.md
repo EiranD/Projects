@@ -45,7 +45,7 @@ This keeps it separate from the Service Request Insight Tool, which may already 
 
 You can also double-click `run_invoice_app.bat` on Windows to start this app on port `8502`.
 
-4. Upload `sample_invoice.csv` or `sample_invoice.xlsx` to test the app.
+4. Upload an invoice file with the expected columns.
 
 ## What the App Checks
 
@@ -65,8 +65,6 @@ The invoice status is:
 ## Files
 
 - `app.py` - Streamlit app
-- `sample_invoice.csv` - sample invoice file for testing
-- `sample_invoice.xlsx` - sample Excel invoice file for testing
 - `requirements.txt` - Python dependencies
 - `run_invoice_app.bat` - Windows launcher for this separate app
 - `README.md` - setup and usage instructions
