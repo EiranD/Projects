@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.log
+
+.env
+.env.*
+.streamlit/secrets.toml
+
+uploads/
+private/
+real_invoices/
+client_invoices/
+
+.DS_Store
+Thumbs.db
