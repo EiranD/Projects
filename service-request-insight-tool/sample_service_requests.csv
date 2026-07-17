@@ -1,0 +1,41 @@
+Date,Service Area,Request Type,Priority,Status,Time Spent Hours
+2026-01-02,Waste,Missed Bin Collection,Medium,Closed,1.5
+2026-01-03,Housing,Damp and Mould Report,High,Open,4.0
+2026-01-04,Highways,Pothole Repair,High,Open,2.5
+2026-01-05,Environmental Health,Noise Complaint,Medium,Closed,1.0
+2026-01-06,Waste,Bulky Waste Collection,Low,Closed,0.8
+2026-01-07,Customer Services,Council Tax Query,Medium,Open,1.2
+2026-01-08,Parks,Tree Maintenance,Low,Closed,2.0
+2026-01-09,Housing,Heating Repair,High,Closed,3.5
+2026-01-10,Waste,Missed Bin Collection,Medium,Open,1.0
+2026-01-11,Highways,Street Light Fault,Medium,Closed,1.8
+2026-01-12,Environmental Health,Food Safety Concern,High,Open,3.0
+2026-01-13,Customer Services,Blue Badge Query,Low,Closed,0.7
+2026-01-14,Waste,Missed Bin Collection,Medium,Closed,1.4
+2026-01-15,Housing,Damp and Mould Report,High,Open,4.5
+2026-01-16,Highways,Pothole Repair,High,Closed,2.2
+2026-01-17,Parks,Playground Equipment Issue,Medium,Open,2.6
+2026-01-18,Customer Services,Council Tax Query,Medium,Closed,1.1
+2026-01-19,Waste,Bulky Waste Collection,Low,Closed,0.9
+2026-01-20,Environmental Health,Noise Complaint,Medium,Open,1.7
+2026-01-21,Housing,Heating Repair,High,Closed,3.8
+2026-01-22,Highways,Pavement Damage,Medium,Open,2.3
+2026-01-23,Waste,Missed Bin Collection,Medium,Closed,1.3
+2026-01-24,Customer Services,Blue Badge Query,Low,Closed,0.6
+2026-01-25,Parks,Tree Maintenance,Low,Open,2.1
+2026-01-26,Housing,Damp and Mould Report,High,Closed,4.2
+2026-01-27,Highways,Pothole Repair,High,Open,2.7
+2026-01-28,Environmental Health,Noise Complaint,Medium,Closed,1.2
+2026-01-29,Waste,Missed Bin Collection,Medium,Closed,1.6
+2026-01-30,Customer Services,Council Tax Query,Medium,Open,1.4
+2026-01-31,Parks,Fly-tipping in Park,Medium,Closed,1.9
+2026-02-01,Housing,Heating Repair,High,Open,3.2
+2026-02-02,Highways,Street Light Fault,Medium,Closed,1.5
+2026-02-03,Waste,Bulky Waste Collection,Low,Open,1.0
+2026-02-04,Environmental Health,Food Safety Concern,High,Closed,2.8
+2026-02-05,Customer Services,Council Tax Query,Medium,Closed,1.0
+2026-02-06,Housing,Damp and Mould Report,High,Open,4.8
+2026-02-07,Highways,Pothole Repair,High,Closed,2.4
+2026-02-08,Waste,Missed Bin Collection,Medium,Open,1.1
+2026-02-09,Parks,Tree Maintenance,Low,Closed,2.2
+2026-02-10,Environmental Health,Noise Complaint,Medium,Closed,1.3
